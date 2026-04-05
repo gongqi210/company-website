@@ -3,26 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Technology Company</title>
-    <meta name="description" content="Building intelligent solutions for the future. We specialize in AI-driven applications and automation.">
-    <meta name="keywords" content="AI, artificial intelligence, machine learning, automation, software development">
-    <meta name="author" content="AI Technology Company">
+    <title>AI Tech Company – Enterprise AI Assistants & No‑Code Automation</title>
+    <meta name="description" content="Build custom AI agents that automate workflows without code. Enterprise‑grade security, SOC 2 compliant, scalable for SMBs and enterprises. Start free trial.">
+    <meta name="keywords" content="enterprise AI assistant, no‑code automation, workflow automation, AI customer service, business process automation">
+    <meta name="author" content="AI Tech Company">
     <!-- Open Graph tags for social sharing -->
-    <meta property="og:title" content="AI Technology Company">
-    <meta property="og:description" content="Building intelligent solutions for the future.">
+    <meta property="og:title" content="AI Tech Company – Enterprise AI Assistants & No‑Code Automation">
+    <meta property="og:description" content="Build custom AI agents that automate workflows without code. Enterprise‑grade security, SOC 2 compliant, scalable for SMBs and enterprises. Start free trial.">
     <meta property="og:type" content="website">
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="AI Technology Company">
-    <meta name="twitter:description" content="Building intelligent solutions for the future.">
-    <!-- Favicon (placeholder) -->
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
+    <meta name="twitter:title" content="AI Tech Company – Enterprise AI Assistants & No‑Code Automation">
+    <meta name="twitter:description" content="Build custom AI agents that automate workflows without code. Enterprise‑grade security, SOC 2 compliant, scalable for SMBs and enterprises. Start free trial.">
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="alternate icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>" type="image/svg+xml">
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Custom CSS -->
     <style>
         .gradient-bg {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #0A66C2 0%, #1A1A1A 100%);
         }
         .hover-lift {
             transition: transform 0.2s ease;
@@ -30,19 +31,46 @@
         .hover-lift:hover {
             transform: translateY(-4px);
         }
+        .step-icon {
+            width: 64px;
+            height: 64px;
+            border-radius: 16px;
+            background-color: #0A66C2;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            margin: 0 auto 16px;
+        }
+        .tab-active {
+            border-bottom: 3px solid #0A66C2;
+            color: #0A66C2;
+            font-weight: 600;
+        }
     </style>
+    <!-- Google Analytics placeholder -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXX');
+    </script>
 </head>
 <body class="font-sans text-gray-800">
     <!-- Navigation -->
     <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-sm border-b border-gray-100">
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
             <div class="flex items-center space-x-2">
-                <div class="w-8 h-8 rounded-full gradient-bg flex items-center justify-center text-white font-bold">A</div>
-                <span class="text-xl font-bold text-gray-900">AI Tech Co.</span>
+                <img src="logo.svg" alt="AI Tech Company Logo" class="w-8 h-8">
+                <span class="text-xl font-bold text-gray-900">AI Tech Company</span>
             </div>
             <div class="hidden md:flex space-x-8">
                 <a href="#home" class="text-gray-600 hover:text-gray-900 font-medium">Home</a>
-                <a href="#mission" class="text-gray-600 hover:text-gray-900 font-medium">Mission</a>
+                <a href="#how-it-works" class="text-gray-600 hover:text-gray-900 font-medium">How It Works</a>
+                <a href="#use-cases" class="text-gray-600 hover:text-gray-900 font-medium">Use Cases</a>
+                <a href="#faq" class="text-gray-600 hover:text-gray-900 font-medium">FAQ</a>
                 <a href="#contact" class="text-gray-600 hover:text-gray-900 font-medium">Contact</a>
             </div>
             <button class="md:hidden text-gray-600">
@@ -56,96 +84,226 @@
     <!-- Hero Section -->
     <section id="home" class="gradient-bg text-white py-20 md:py-32">
         <div class="container mx-auto px-6 text-center">
-            <h1 class="text-4xl md:text-6xl font-bold mb-6">Building Intelligent Solutions for the Future</h1>
+            <h1 class="text-4xl md:text-6xl font-bold mb-6">Enterprise AI Assistants. No‑Code Automation.</h1>
             <p class="text-xl md:text-2xl mb-10 max-w-3xl mx-auto opacity-90">
-                We specialize in AI‑driven applications, automation, and cutting‑edge software that transforms businesses.
+                Build custom AI agents that automate workflows, integrate with your tools, and scale with your business—without writing a line of code.
             </p>
             <div class="flex flex-col sm:flex-row justify-center gap-4">
-                <a href="#contact" class="bg-white text-gray-900 font-bold py-3 px-8 rounded-full hover-lift shadow-lg hover:shadow-xl">
-                    Get in Touch
+                <a href="#waitlist" class="bg-white text-gray-900 font-bold py-3 px-8 rounded-full hover-lift shadow-lg hover:shadow-xl">
+                    Start Free Trial
                 </a>
-                <a href="#mission" class="bg-transparent border-2 border-white text-white font-bold py-3 px-8 rounded-full hover-lift hover:bg-white/10">
-                    Learn More
+                <a href="#demo" class="bg-transparent border-2 border-white text-white font-bold py-3 px-8 rounded-full hover-lift hover:bg-white/10">
+                    Watch Demo (2 min)
                 </a>
             </div>
         </div>
     </section>
 
-    <!-- Mission Section -->
-    <section id="mission" class="py-20 bg-gray-50">
+    <!-- Value Proposition -->
+    <section class="py-20 bg-gray-50">
         <div class="container mx-auto px-6">
-            <div class="max-w-4xl mx-auto">
-                <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Our Mission</h2>
-                <div class="grid md:grid-cols-2 gap-12">
-                    <div class="bg-white p-8 rounded-2xl shadow-md hover-lift">
-                        <div class="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center mb-6">
-                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
-                            </svg>
-                        </div>
-                        <h3 class="text-xl font-bold mb-4">Innovation First</h3>
-                        <p class="text-gray-600">
-                            We push the boundaries of what's possible with AI, developing solutions that are not just functional but transformative.
-                        </p>
-                    </div>
-                    <div class="bg-white p-8 rounded-2xl shadow-md hover-lift">
-                        <div class="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center mb-6">
-                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
-                            </svg>
-                        </div>
-                        <h3 class="text-xl font-bold mb-4">Privacy & Security</h3>
-                        <p class="text-gray-600">
-                            We build with security and privacy by design, ensuring our clients' data is protected at every step.
-                        </p>
-                    </div>
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Why Choose Our Platform</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-2xl shadow-md hover-lift">
+                    <div class="text-4xl mb-6">🛠️</div>
+                    <h3 class="text-xl font-bold mb-4">Drag‑and‑Drop AI Builder</h3>
+                    <p class="text-gray-600">
+                        Design workflows visually. Connect APIs, databases, and internal systems with point‑and‑click—no developers required.
+                    </p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-md hover-lift">
+                    <div class="text-4xl mb-6">🔒</div>
+                    <h3 class="text-xl font-bold mb-4">Built for Compliance</h3>
+                    <p class="text-gray-600">
+                        SOC 2, HIPAA, GDPR‑ready. End‑to‑end encryption, audit trails, and role‑based access control.
+                    </p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-md hover-lift">
+                    <div class="text-4xl mb-6">📈</div>
+                    <h3 class="text-xl font-bold mb-4">Grow Without Growing Costs</h3>
+                    <p class="text-gray-600">
+                        One AI assistant can handle the work of 10 employees. Pay only for what you use, scale up or down instantly.
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="py-20">
+    <!-- How It Works -->
+    <section id="how-it-works" class="py-20">
         <div class="container mx-auto px-6">
-            <div class="max-w-2xl mx-auto">
-                <h2 class="text-3xl md:text-4xl font-bold text-center mb-6">Get in Touch</h2>
-                <p class="text-gray-600 text-center mb-12">
-                    Have a project in mind? We'd love to hear from you.
-                </p>
-                <form class="space-y-6">
-                    <div>
-                        <label class="block text-gray-700 mb-2" for="name">Name</label>
-                        <input type="text" id="name" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="Your name">
-                    </div>
-                    <div>
-                        <label class="block text-gray-700 mb-2" for="email">Email</label>
-                        <input type="email" id="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="you@example.com">
-                    </div>
-                    <div>
-                        <label class="block text-gray-700 mb-2" for="message">Message</label>
-                        <textarea id="message" rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="Tell us about your project..."></textarea>
-                    </div>
-                    <button type="submit" class="w-full gradient-bg text-white font-bold py-3 px-6 rounded-lg hover-lift shadow-md">
-                        Send Message
-                    </button>
-                </form>
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">How It Works</h2>
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="text-center">
+                    <div class="step-icon">1</div>
+                    <h3 class="text-xl font-bold mb-4">Define Your Workflow</h3>
+                    <p class="text-gray-600">“Automate customer‑support ticket triage.” Simple flowchart icon.</p>
+                </div>
+                <div class="text-center">
+                    <div class="step-icon">2</div>
+                    <h3 class="text-xl font-bold mb-4">Connect Your Tools</h3>
+                    <p class="text-gray-600">“Link your helpdesk, CRM, and database.” API connector icon.</p>
+                </div>
+                <div class="text-center">
+                    <div class="step-icon">3</div>
+                    <h3 class="text-xl font-bold mb-4">Go Live in Days</h3>
+                    <p class="text-gray-600">“Deploy your AI assistant and start saving time immediately.” Rocket launch icon.</p>
+                </div>
             </div>
+        </div>
+    </section>
+
+    <!-- Use Cases -->
+    <section id="use-cases" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Use Cases</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-2xl shadow-md hover-lift">
+                    <h3 class="text-xl font-bold mb-4">Customer Service</h3>
+                    <ul class="text-gray-600 space-y-2">
+                        <li>• Automate tier‑1 support</li>
+                        <li>• Route tickets based on urgency</li>
+                        <li>• Pull customer history instantly</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-md hover-lift">
+                    <h3 class="text-xl font-bold mb-4">Sales & Marketing</h3>
+                    <ul class="text-gray-600 space-y-2">
+                        <li>• Qualify leads automatically</li>
+                        <li>• Schedule follow‑up emails</li>
+                        <li>• Enrich lead data with external sources</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-md hover-lift">
+                    <h3 class="text-xl font-bold mb-4">Internal Operations</h3>
+                    <ul class="text-gray-600 space-y-2">
+                        <li>• Onboard new employees</li>
+                        <li>• Process procurement approvals</li>
+                        <li>• Generate monthly reports</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof -->
+    <section class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Trusted by Forward‑Thinking Teams</h2>
+            <div class="grid md:grid-cols-2 gap-12">
+                <div class="bg-gray-50 p-8 rounded-2xl">
+                    <p class="text-gray-700 italic text-lg mb-4">
+                        “We reduced support‑ticket resolution time by 70% and improved customer satisfaction scores by 30%. The AI assistant paid for itself in the first month.”
+                    </p>
+                    <p class="font-bold text-gray-900">— Jane Doe, Head of Customer Experience, B2B SaaS Company</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-2xl">
+                    <p class="text-gray-700 italic text-lg mb-4">
+                        “As a small team, we couldn’t afford a full‑time developer. The no‑code platform let us build an AI assistant that handles 80% of our repetitive tasks.”
+                    </p>
+                    <p class="font-bold text-gray-900">— John Smith, Founder, E‑commerce Brand</p>
+                </div>
+            </div>
+            <div class="mt-12 text-center text-gray-500">
+                <p>Logo strip placeholder – Trusted by forward‑thinking SMBs and enterprises</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Frequently Asked Questions</h2>
+            <div class="max-w-3xl mx-auto space-y-6">
+                <div class="bg-white p-6 rounded-2xl shadow-sm">
+                    <h3 class="text-lg font-bold mb-2">Do I need coding skills to use your platform?</h3>
+                    <p class="text-gray-600">No. Our visual builder lets you design workflows using drag‑and‑drop components and pre‑built connectors.</p>
+                </div>
+                <div class="bg-white p-6 rounded-2xl shadow-sm">
+                    <h3 class="text-lg font-bold mb-2">What integrations do you support?</h3>
+                    <p class="text-gray-600">We connect with 100+ popular tools (CRM, helpdesk, databases, messaging apps) and offer a REST API for custom connections.</p>
+                </div>
+                <div class="bg-white p-6 rounded-2xl shadow-sm">
+                    <h3 class="text-lg font-bold mb-2">Is my data secure?</h3>
+                    <p class="text-gray-600">Yes. We use enterprise‑grade encryption, comply with major regulations (SOC 2, GDPR, HIPAA), and never sell or share your data.</p>
+                </div>
+                <div class="bg-white p-6 rounded-2xl shadow-sm">
+                    <h3 class="text-lg font-bold mb-2">How much does it cost?</h3>
+                    <p class="text-gray-600">Plans start at $99/month for up to 5 AI assistants. Volume discounts available.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA & Waitlist Form -->
+    <section id="waitlist" class="py-20 gradient-bg text-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready to Automate Your Business?</h2>
+            <p class="text-xl mb-10 max-w-2xl mx-auto opacity-90">
+                Join hundreds of companies that use AI assistants to save time, reduce errors, and scale operations.
+            </p>
+            <form id="waitlist-form" action="#" method="POST" class="max-w-md mx-auto" onsubmit="handleWaitlistSubmit(event)">
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <input type="email" name="email" required placeholder="Your work email" class="flex-1 px-6 py-3 rounded-full text-gray-900 focus:outline-none focus:ring-2 focus:ring-white">
+                    <button type="submit" class="bg-white text-gray-900 font-bold py-3 px-8 rounded-full hover-lift shadow-lg">
+                        Get Started for Free
+                    </button>
+                </div>
+                <p class="mt-4 text-sm opacity-80">By submitting, you agree to our Privacy Policy. No credit card required.</p>
+            </form>
+            <script>
+                function handleWaitlistSubmit(event) {
+                    event.preventDefault();
+                    const email = event.target.email.value;
+                    alert(`Thank you! We'll contact you at ${email} when we launch. This is a demo form.`);
+                    event.target.reset();
+                    return false;
+                }
+            </script>
+            <p class="mt-8">
+                <a href="#demo" class="text-white underline hover:no-underline">Schedule a personalized demo →</a>
+            </p>
         </div>
     </section>
 
     <!-- Footer -->
     <footer class="bg-gray-900 text-white py-12">
         <div class="container mx-auto px-6">
-            <div class="flex flex-col md:flex-row justify-between items-center">
-                <div class="mb-6 md:mb-0">
-                    <div class="flex items-center space-x-2">
-                        <div class="w-8 h-8 rounded-full gradient-bg flex items-center justify-center text-white font-bold">A</div>
-                        <span class="text-xl font-bold">AI Technology Company</span>
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                         <img src="logo.svg" alt="AI Tech Company Logo" class="w-8 h-8">
+                         <span class="text-xl font-bold">AI Tech Company</span>
                     </div>
-                    <p class="mt-2 text-gray-400">Building the future, one algorithm at a time.</p>
+                    <p class="text-gray-400">Democratizing AI automation for every business.</p>
                 </div>
-                <div class="text-gray-400">
-                    <p>© <span id="current-year">2026</span> AI Technology Company. All rights reserved.</p>
+                <div>
+                    <h4 class="font-bold mb-4">Company</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#home" class="hover:text-white">About</a></li>
+                        <li><a href="#contact" class="hover:text-white">Contact</a></li>
+                        <li><a href="#blog" class="hover:text-white">Blog</a></li>
+                        <li><a href="#privacy" class="hover:text-white">Privacy Policy</a></li>
+                        <li><a href="#terms" class="hover:text-white">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Resources</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#docs" class="hover:text-white">Documentation</a></li>
+                        <li><a href="#api" class="hover:text-white">API Reference</a></li>
+                        <li><a href="#support" class="hover:text-white">Support</a></li>
+                        <li><a href="#status" class="hover:text-white">System Status</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Connect</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white">LinkedIn</a>
+                        <a href="#" class="text-gray-400 hover:text-white">Twitter/X</a>
+                        <a href="#" class="text-gray-400 hover:text-white">WeChat</a>
+                    </div>
+                    <p class="mt-6 text-gray-400 text-sm">© <span id="current-year">2026</span> AI Tech Company. All rights reserved.</p>
                 </div>
             </div>
         </div>
