@@ -1,0 +1,11 @@
+# ============================================
+# Company Website CODEOWNERS
+# ============================================
+
+# Default - all changes require CTO or CMO review
+* @gongqi210
+
+# SEO and marketing content - CMO ownership
+*.html @gongqi210
+blog/ @gongqi210
+content/ @gongqi210
